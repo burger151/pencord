@@ -1,66 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Pencord</title>
-
-<style>
-    body {
-        margin: 0;
-        height: 480px;
-        width: 640px;
-        background: linear-gradient(90deg, #3a1d5c, #2a1b7a);
-        font-family: sans-serif;
-        overflow: hidden;
-    }
-
-    /* Top-right buttons (scaled down) */
-    #top-buttons {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        display: flex;
-        gap: 6px;
-    }
-
-    .btn {
-        padding: 4px 10px;
-        font-size: 11px;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        color: white;
-        border: 1px solid white;
-        background: transparent;
-        border-radius: 0px; /* square corners */
-        cursor: pointer;
-        user-select: none;
-    }
-
-    .btn:hover {
-        background: rgba(255,255,255,0.1);
-    }
-
-
-    /* Penguin bottom-left (scaled down) */
-    #penguin {
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        width: 60px;   /* was 90px */
-        height: auto;
-        opacity: 0.95;
-    }
-</style>
+    <meta charset="UTF-8">
+    <title>Pencord</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div id="top-buttons">
-    <div class="btn">LOGIN</div>
-    <div class="btn">SIGN UP</div>
-</div>
+    <!-- Login/Signup Button -->
+    <img id="loginButton" src="loginsignup-button.svg" alt="Login / Signup">
 
-<img id="penguin" src="https://files.catbox.moe/s1p6zi.svg">
+    <!-- Penguin -->
+    <img id="penguin" src="penguin.svg" alt="Penguin">
 
+    <script src="script.js"></script>
 </body>
 </html>
