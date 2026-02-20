@@ -1,0 +1,27 @@
+/* Full stage */
+body {
+    margin: 0;
+    width: 640px;
+    height: 480px;
+    background: linear-gradient(100deg, #2a1b7a, #3a1d5c);
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+
+/* Login/Signup button (SVG asset) */
+#loginButton {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 120px; /* adjust if needed */
+    cursor: pointer;
+}
+
+/* Penguin asset */
+#penguin {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    width: 60px; /* adjust if needed */
+}
